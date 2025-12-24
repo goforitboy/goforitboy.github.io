@@ -9,9 +9,9 @@ head:
     backgroundpic : "img/bg.jpg"
 
 Intro:
-    name: MICCALL
+    name: goforitboy
     slogan: "Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way"
-    HeadButton: MICCALL
+    HeadButton: goforitboy
 
 Nav:
     Home_name: 主页
