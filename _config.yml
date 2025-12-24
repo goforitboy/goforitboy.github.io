@@ -103,4 +103,4 @@ theme: mic_theme
 deploy:
   type: git
   repo: https://github.com/goforitboy/goforitboy.github.io.git
-  branch: main
+  branch: gh-pages
