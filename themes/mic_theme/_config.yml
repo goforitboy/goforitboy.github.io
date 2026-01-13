@@ -10,43 +10,32 @@ head:
 
 Intro:
     name: goforitboy
-    slogan: "Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way"
+    slogan: "Life only gives its hardest battles to its strongest soldiers."
     HeadButton: goforitboy
 
 Nav:
     Home_name: 主页
-    is_use_categories : true 
-    categories_name: 分类
+    is_use_categories : true
+    categories_name: 文章分类
     is_use_archives : false
     archives_name: 归档
     
     #Social
     # for more icons, please see http://fontawesome.io/icons/#brand
     icon:
-        github: https://github.com/miccall
-        500px: http://500px.com
-        
+        github: https://github.com/goforitboy
+
     pages:
-        简历: 
-            link: "/about/"
-        团队 :
-            link: "/group/"
-        图库 :
-            link: "/gallery/"
-        标签:
-            link: "/tag/"
-        #自定义标签名
-        #   link：“路径”
+      个人简介:
+        link: "/about/"
+      #自定义标签名
+      #   link：“路径”
 
 MainFirst:
-    name: Miccall Metro
-    description: Technical  Artist  of  Games   
+    name: Love the world forever.
+    description: Dream big, act bold.
     pic_url: /images/me.jpg
     goto_ulr: ""
-
-Gallery :
-    title: Mr.metro 
-    description: Just another fine responsive 
 
 # ---------------------------------------------------------------
 # Style Settings
