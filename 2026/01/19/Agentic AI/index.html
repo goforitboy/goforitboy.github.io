@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
+	<link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			    <title>
+    Haobo's blog
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="miccall" />
+    
+    	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/bg.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+<meta name="generator" content="Hexo 8.1.1"></head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">goforitboy</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">文章分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/Life/">Life</a></li><li><a class="category-link" href="/categories/Tech/">Tech</a>
+	                    </ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="个人简介">
+		                个人简介
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+                    <li>
+                        <a title="github" href="https://github.com/goforitboy" target="_blank" rel="noopener">
+                            <i class="icon fa fa-github"></i>
+                        </a>
+                    </li>
+                    
+			</ul>
+</nav>
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(/images/Agentic_AI背景.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >Agentic AI</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <p>这一天半肝完了Andrew Ng的Agentic AI,说是肝，但是总感觉效率还是不高，在家里手机放在旁边还是时不时会看两眼，虽然本身就对这些东西很感兴趣，但是听到没有意思的地方还是会去想干点其他有意思的事，这一点还是需要改。</p>
+<p>简单总结一下这门课程吧，由于<a target="_blank" rel="noopener" href="https://github.com/datawhalechina/agentic-ai.git">github</a>和<a target="_blank" rel="noopener" href="https://blog.csdn.net/cfy2401926342?type=blog">CSDN</a>上都已经有大佬总结出非常详细的笔记了，所以我就简单记录一下对于每个模块的总结和感受。</p>
+<h1 id="一、Agentic工作流简介"><a href="#一、Agentic工作流简介" class="headerlink" title="一、Agentic工作流简介"></a>一、Agentic工作流简介</h1><p>首先Andrew提出了很有意思的一个点，那就是我们平时经常提到AI agent,但是这里他的课程标题是Agentic AI,那么这一点主要是因为现在有很多人不停的争论一个问题，就是根据一个系统的自主性，他到底属不属于ai agent,但是Andrew认为agent的自主性本身就是具备高低之分的，所以争论这个问题完全没必要，因此就直接把agent这个词变成一个形容词agentic来放在ai的前面，这样就可以巧妙的将这个问题解决了，在这里也能看出作为一个横跨学术界和工业界的大亨的严谨性了。</p>
+<p>那么agentic ai到底是个什么东西呢，其实说白了，就是相当于你雇了一个助手，这个助手啊他很聪明，你告诉他我要干什么以及我的要求，我能提供的材料，然后他能自己规划达成这个目标的路线，包括在这个过程中还要使用一些工具，比如进行网页抓取，下载文献等，最后自动完成这一系列的流程，且完成效果很好。那说到这里，就不得不提一下这个agentic ai到底比我们平时用的大语言模型强在哪里呢？</p>
+<p>第一点有些东西大语言模型他做不了但是agent能做，可能你让大语言模型写一个文章没问题，问他点常识他能给你讲明白，但是如果你要实现一个复杂的流程那就根本不在他的能力范围内，所以这里就需要agent来去应用一些工具，来去接收多方面多渠道的信息，以及对接一些软件的api去端到端的完成一些任务，那么agent就会表现的更好，比如完成一套完整的从市场调研，方案设计，产品设计，写出营销文案的流程，单单一个大语言模型显然力不从心。</p>
+<p>第二点是大语言模型是一次性生成的，所以他不会来回反复修改，也不会自己自动评估，只能靠我们人类自己评估，因此很费时间，也不准确，但是agent里面很重要的部分就是反思和评估，所以他可以在很大程度上提升文章的专业度，以及任务的流畅度和完整度。所以如果你用非智能体写个大作业可能还行，但是你要是要写一个领域的调研报告或者论文，那ai agent无疑是更好的选择。</p>
+<p>第三点其实我觉得就是agent工作流的本质了，可能我们平时用gpt时也能感觉到，对于从头到尾的一个项目构建过程，可能只有一部分比如写代码可以用大语言模型来完成，然而对于比如调整代码之间的关系以及喂数据，上线部署等任务都要我们人工去完成，这些东西本身就是流程化的东西，那就没有必要我们人类总是重复去做，因此这个agent工作流的重要性想必就不言而喻了。可以想象一下，在几年之后，大多数机械性的工作，都可以由一个agent去代替你完成，你只需要在你的prompt（甚至都已经为你写好模版）中填上一些数据，然后一个回车，你就可以去睡觉了，需要完成的步骤agent会自主规划好，需要获取的信息会在网上查的明明白白，一觉醒来这个项目就完成了。在人类休息的时候还能自主的去工作，甚至自己知道自己下一步应该干什么，我想这个也就是agentic ai的意义所在了。</p>
+<p>至于几个案例，我就不详细解释了，笔记真的写的很清楚很清楚了，真的感谢能整理出这么详细的笔记的大佬。</p>
+<p>那么简单说说ai agent中的几个核心的设计模式，分别是<strong>反思</strong>，<strong>工具使用</strong>和<strong>规划</strong>。</p>
+<h1 id="二、反思设计模式"><a href="#二、反思设计模式" class="headerlink" title="二、反思设计模式"></a>二、反思设计模式</h1><p>人类如果写一篇文章或者写一段代码之后，会返回去检查是不是有拼写错误，有没有哪些遗漏的地方，我们可以把这一反思过程也让ai agent去自主的完成。</p>
+<p>案例：代码编写（这里会借用笔记里的部分内容，写的很清晰）</p>
+<p>1.基础版：模型自省<br>步骤1： 提示 LLM 编写一段代码（code V1）。<br>步骤2： 将 code V1 再次输入给 LLM，提示其“检查代码中的错误并写出改进版”。<br>结果： 得到修复了潜在 bug 的 code V2。</p>
+<p>2.进阶版：利用“思考模型” (Reasoning Models)去“检查代码中的错误并写出改进版”<br>不同的 LLM 有不同的专长。可以使用一个擅长快速生成的模型来写初稿，再用一个“思考模型”（Thinking Model）、更擅长逻辑推理和错误排查的模型来进行反思和改进。<br>这种组合能发挥各自的优势，达到“1+1&gt;2”的效果。</p>
+<p>3.终极形态：结合外部反馈的反思<br>反思最强大的形式是结合外部反馈。仅仅让模型“内省”是有限的，而引入来自模型之外的新信息，则能带来质的飞跃。</p>
+<p>以上面的代码为例做结合外部反馈的反思：<br>1.生成初稿： LLM 生成 code V1。<br>2.执行代码： 在安全的沙盒环境中运行 code V1。<br>3.获取外部反馈： 系统捕获代码的实际输出（Output）和任何错误信息（Errors），例如 SyntaxError: unterminated string literal。<br>4.反思与改进： 将 code V1、Output 和 Errors 一起作为输入，交给 LLM 进行反思，要求其根据这些具体的、客观的反馈来重写代码。<br>5.获得终稿： LLM 基于真实的执行结果，修正错误，生成功能正确的 code V2。</p>
+<p>Andrew在这里还特意提到了在agent的反思过程中，如果能有来自模型之外的新信息输入，那将会带来非常大的性能提升。所以也就明白为什么叫反思模式下的终极形态了。具体的例子可以参考一下图表生成工作流，这个例子看完就能彻底明白了。</p>
+<p>而对于反思并调整之后的效果是怎么评估的呢，有两种评估模式：<br>1.客观评估：<br>构建带“真实答案”的数据集，用代码自动计算正确率。<br>简单、易管理、结果客观。适用于有明确答案的任务（如数据库查询）。<br>2.主观评估：<br>使用 LLM 作为裁判，但是由于评判标准不同，最终结果会有偏差，因此需提供详细的评分量表（Rubric）。<br>需要更多调优，但能处理复杂的主观标准（如图表美观度）。</p>
+<p>这里还有个有意思的点，可以称之为位置偏见（Position bias），即我们在让模型在两者中选其一时，许多模型倾向于选择第一个输入的选项（A），无论其质量如何。</p>
+<p>在这一模块的最后呢，Andrew也用前面的三个例子更好的解释了一下外部反馈：</p>
+<table>
+<thead>
+<tr>
+<th align="left">Challenge (挑战)</th>
+<th align="left">Example (示例)</th>
+<th align="left">Source of feedback (反馈来源)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>提及竞争对手</strong></td>
+<td align="left">“我们公司的鞋子比 RivalCo 好”</td>
+<td align="left"><strong>模式匹配</strong> (Pattern matching for competitor names)<br> <em>使用正则表达式等工具扫描输出，若发现竞争对手名字，则将其作为批评性输入反馈给模型，要求其重写文本。</em></td>
+</tr>
+<tr>
+<td align="left"><strong>事实核查文章</strong></td>
+<td align="left">“泰姬陵建于1648年”</td>
+<td align="left"><strong>网络搜索结果</strong> (Web search results)<br> <em>通过网络搜索核实历史事实（如泰姬陵实际于1631年下令建造，1648年完工），并将精确的时间段作为额外输入提供给反思智能体，以生成更准确的版本。</em></td>
+</tr>
+<tr>
+<td align="left"><strong>超出字数限制</strong></td>
+<td align="left">生成的文章超过指定字数</td>
+<td align="left"><strong>字数统计工具</strong> (Word count tool)<br> <em>编写代码精确统计字数，如果超出限制，则将该信息反馈给 LLM，要求其重新尝试，以更准确地达到期望的输出长度。</em></td>
+</tr>
+</tbody></table>
+<h1 id="三、工具使用"><a href="#三、工具使用" class="headerlink" title="三、工具使用"></a>三、工具使用</h1><p><strong>核心思想：工具即函数，模型自主决策</strong><br>关键在于，模型拥有自主决策权。它不再是被动地根据内部知识库生成答案，而是能主动判断：在当前情境下，是否需要、以及应该调用哪个工具来完成任务。就像人类借助锤子、扳手等工具能完成徒手无法做到的事情一样，语言模型通过调用“函数工具”，也能突破自身训练数据和能力的限制，变得无比强大。</p>
+<h2 id="工具调用简单流程"><a href="#工具调用简单流程" class="headerlink" title="工具调用简单流程"></a>工具调用简单流程</h2><p>以“现在几点？”为例，清晰展示了工具使用的完整闭环：<br>1.输入提示 (Input Prompt): 用户提问 “What time is it?”。<br>2.模型决策 (Model Decision): LLM 意识到自己无法提供实时时间，于是决定调用名为 get_current_time() 的工具。<br>3.工具执行 (Tool Execution): 系统执行该函数，返回精确的时间值，例如 15:20:45。<br>4.结果反馈 (Result Feedback): 这个时间值被作为新的上下文（对话历史）回传给 LLM。<br>5.最终输出 (Final Output): LLM 结合这个新信息，生成自然语言回复：“It’s 3:20pm.”</p>
+<p>工具调用的本质：<br>LLM（大语言模型）本身不会直接调用工具，LLM 会“请求”开发者去调用某个工具，开发者负责执行该工具并将其结果返回给 LLM。 在开发社区中，人们常简化说“LLM 调用了工具”，但这在技术上并不准确，仅是一种便捷的说法。<br>AI Suite 库：<br>这是一个开源库，由 Andrew Ng 及其团队开发，它提供了一种统一、简便的语法来调用多个不同的 LLM 提供商（如 OpenAI），该库的核心功能之一是自动处理工具描述，极大简化了开发流程。</p>
+<p>具体代码案例可以参考数据库agent这篇文章。</p>
+<h2 id="代码执行"><a href="#代码执行" class="headerlink" title="代码执行"></a>代码执行</h2><h3 id="方法概述"><a href="#方法概述" class="headerlink" title="方法概述"></a>方法概述</h3><p>这种方法可以视为另一种工具调用的方法，其实就是不调用自己写的函数了，而是自己生成要执行的代码，然后去执行。<br>核心理念：与其逐个实现功能，不如让系统自己编写并执行代码来解决问题。<br>优势：极大地扩展了模型的能力边界，使其能处理任何可以通过编程解决的问题。</p>
+<h3 id="实现步骤"><a href="#实现步骤" class="headerlink" title="实现步骤"></a>实现步骤</h3><p>1.设计系统提示词 (System Prompt)：<br>指令模型：“编写代码来解决用户的问题”。<br>要求模型将答案以 Python 代码形式返回，并用 <code>&lt;execute_python&gt;</code> 和 <code>&lt;/execute_python&gt;</code> 标签包裹。</p>
+<p>2.模型输出：<br>对于查询 “What’s the square root of 2?”，模型可能输出：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&lt;</span>execute_python<span class="token operator">></span>
+<span class="token keyword">import</span> math
+<span class="token keyword">print</span><span class="token punctuation">(</span>math<span class="token punctuation">.</span>sqrt<span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>execute_python<span class="token operator">></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>3.提取与执行：<br>使用正则表达式等模式匹配技术，从模型输出中提取被标签包裹的代码。<br>在安全的沙盒环境中执行提取出的代码。<br>获取执行结果（例如 <code>1.4142135623730951</code>）。</p>
+<p>4.反馈与格式化：<br>将数值结果传回给 LLM。<br>LLM 根据原始问题，生成一个格式良好的最终答案（例如：“The square root of 2 is approximately 1.4142.”）。</p>
+<h3 id="执行代码的方式"><a href="#执行代码的方式" class="headerlink" title="执行代码的方式"></a>执行代码的方式</h3><p>Python 的 <code>exec()</code> 函数：这是一个内置函数，可以执行传入的任意字符串代码。虽然强大，但也带来了安全风险。<br>专用工具：存在一些专门用于安全执行代码的工具，可以在更安全的沙盒环境中运行。</p>
+<h2 id="安全考量——沙盒的重要性"><a href="#安全考量——沙盒的重要性" class="headerlink" title="安全考量——沙盒的重要性"></a>安全考量——沙盒的重要性</h2><p>核心风险：在沙盒环境外运行由模型生成的任意代码是有风险的。<br>真实案例：<br>一位团队成员使用的高度智能体化代码执行器，曾错误地执行了 <code>rm *.py</code> 命令，删除了项目目录中的所有 Python 文件。幸运的是，该成员有备份习惯，未造成实质损失。<br>最佳实践：<br>必须使用沙盒环境：这是保护系统、防止数据丢失或敏感数据泄露的最佳做法。<br>轻量级沙盒：推荐使用像Docker或E2B这样的轻量级沙盒环境，它们能有效隔离代码，降低损坏系统或环境的风险。</p>
+<h2 id="MCP"><a href="#MCP" class="headerlink" title="MCP"></a>MCP</h2><p>定义：MCP（Model Context Protocol，模型上下文协议）是由 Entropy 提出的一个标准，旨在为大型语言模型（LLM）提供一种标准化的方式来访问外部工具和数据源。<br>传统方法——重复造轮子：<br>开发者 A 构建 App 1，需要集成 Slack、Google Drive、GitHub 和 PostgreSQL，开发者 B 构建 App 2，同样需要集成这些工具，每个应用都必须独立编写封装代码来调用各个工具的 API，如果有 <code>m</code> 个应用和 <code>n</code> 个工具，整个社区的工作量是 <code>m × n</code>，效率低下且浪费资源。</p>
+<h3 id="MCP-的解决方案"><a href="#MCP-的解决方案" class="headerlink" title="MCP 的解决方案"></a>MCP 的解决方案</h3><p>引入共享服务器：MCP 提出了一种标准，允许应用程序通过一个共享的 MCP 服务器来访问工具和数据源。<br>工作量优化：<br>不再是每个应用都创建自己的工具封装，只需要开发 <code>n</code> 个 MCP 服务器（每个对应一个工具），然后让 <code>m</code> 个应用去连接这些服务器。<br>整个社区的工作量从 <code>m × n</code> 降低到 <code>m + n</code>，实现了巨大的效率提升。</p>
+<p>1.客户端 (Clients)<br>角色：希望访问外部工具或数据的应用程序。<br>示例：Cursor, Claude Desktop, Windsurf。<br>功能：向 MCP 服务器发送请求，获取数据或执行操作。<br>2.服务器 (Servers)<br>角色：提供工具和数据源的软件服务。<br>示例：Slack, Google Drive, GitHub, PostgreSQL。<br>功能：作为“包装器”，接收来自客户端的请求，并将其转换为对原始工具 API 的调用，然后将结果返回给客户端。<br>来源：部分服务器由服务提供商开发，但也有大量第三方开发者贡献。</p>
+<p>举个例子：<br>Claude Desktop 使用 GitHub MCP 服务器<br>场景：用户在 Claude Desktop 中输入查询：“总结该 GitHub 仓库的 README 文件内容”，并附上 URL。<br>流程：<br>1.Claude Desktop 作为 MCP 客户端，识别到这是一个需要访问 GitHub 的请求。<br>2.它向已连接的 GitHub MCP 服务器发送一个请求，参数包含文件路径 (<code>README.md</code>)、仓库名 (<code>aisuite</code>) 和所有者 (<code>andrewng</code>)。<br>3.GitHub MCP 服务器执行请求，从仓库下载文件内容。<br>4.服务器将长文本响应返回给 Claude Desktop。<br>5.Claude Desktop 将接收到的内容反馈给 LLM，LLM 生成一份简洁、格式良好的摘要。</p>
+<h1 id="四、构建Agentic-AI的实用技巧"><a href="#四、构建Agentic-AI的实用技巧" class="headerlink" title="四、构建Agentic AI的实用技巧"></a>四、构建Agentic AI的实用技巧</h1><h2 id="评估"><a href="#评估" class="headerlink" title="评估"></a>评估</h2><p>直接举发票系统的那个例子：<br>本系统想要从发票中提取四个必填字段并保存，特别是到期日，用于及时付款。通过手动测试并检查 10-20 张发票的输出，发现一个常见的出错点是系统混淆了发票的开具日期和到期日。</p>
+<p>进而，我们需要改进系统以更好地提取到期日，并编写一个评估（Eval）来衡量日期提取的准确性。<br>具体怎么构建这个评估呢？<br>1.测试集： 找到 10-20 张发票，人工记录每个发票的正确到期日，作为正确对照。<br>2.标准化格式： 在提示词中要求 LLM 始终以固定的年-月-日格式输出到期日，便于代码自动检查。<br>3.评估方式： 编写代码（如正则表达式）提取日期，然后测试提取出的日期是否等于基本事实日期。<br>4.用途： 调整提示或其他系统组件后，用这个指标的变化来衡量准确率是否有提升。</p>
+<p>总结一下我们的改进流程： 构建系统 - 查看输出 - 发现错误 - 针对重要错误建立小型评估 - 调整系统以提高评估指标。</p>
+<h2 id="错误分析"><a href="#错误分析" class="headerlink" title="错误分析"></a>错误分析</h2><p>根本上就是定位错误来源，然后精准点对点地改进。<br>还是举发票系统的例子：</p>
+<p>工作流程： PDF - (PDF 转文本) - (LLM 数据提取) - 数据库记录。<br>1.发现问题： 提取的到期日经常出错。<br>2.收集错误样本： 忽略正确的发票，收集 10 到 100 张到期日提取错误的发票。<br>3.定位错误来源：<br>PDF 转文本错误： 文本提取太差，导致连人类都无法识别到期日。<br>LLM 数据提取错误： PDF 转文本的输出足够好，但 LLM 却错误地拉取了其他日期（如发票日期而非到期日）。<br>4.结果指导： 假设统计发现 LLM 数据提取导致了更多的错误。</p>
+<p>结论： 应将精力集中在改进 LLM 数据提取组件上（如优化提示词），而不是花费数周时间徒劳地改进 PDF 转文本组件。</p>
+<h2 id="组件级评估"><a href="#组件级评估" class="headerlink" title="组件级评估"></a>组件级评估</h2><p>现在找到问题所在了，就该针对这个组件进行改进了，但是评估方法还有两种：端到端评估和组件级评估<br>1.端到端评估：成本高昂，即使是更换搜索引擎这样的小改动，都需要重新运行整个复杂的工作流程进行端到端评估，时间和金钱成本很高。同时，其他组件的随机性或噪声可能会掩盖被改进组件带来的微小、增量改进。<br>2.组件级评估：更高效， 信号更清晰，避免了整体系统的复杂性带来的噪声。还适用于团队分工： 如果有多个团队分别负责不同组件，每个团队可以自行维护指标。<br>因此我们一般先采用组件级评估，最后再进行一次端到端评估。</p>
+<p>组件级评估与端到端评估的关系与顺序如下：<br>1.通过错误分析确定一个问题组件（如网页搜索）。<br>2.构建和使用组件级评估来高效地进行调优和增量改进。<br>3.在调优后，运行最终的端到端评估，以验证组件的改进确实提升了整个系统的整体性能。</p>
+<h1 id="总结：代理式-AI-系统开发流程与迭代循环"><a href="#总结：代理式-AI-系统开发流程与迭代循环" class="headerlink" title="总结：代理式 AI 系统开发流程与迭代循环"></a>总结：代理式 AI 系统开发流程与迭代循环</h1><p>对于开发者而言，在开发Agent工作流时，主要精力通常集中在以下两项活动中，并不断来回切换：<br><strong>构建</strong>： 编写软件和代码来改进系统。<br><strong>分析</strong>： 决定下一步将构建精力集中在哪里的过程，其重要性与构建相当。</p>
+<p>而一个Agent系统从初始原型到成熟，分析工作的严谨性也随之提高，通常经历以下迭代阶段：</p>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>描述</th>
+<th>主要活动</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1. 快速原型</td>
+<td>快速构建一个端到端系统（所谓的“先做个垃圾出来”）。</td>
+<td>分析： 手动检查最终输出，通读追踪 (Traces)，凭直觉找出性能不佳的组件。</td>
+</tr>
+<tr>
+<td>2. 初步评估</td>
+<td>系统开始成熟，超越纯手动观察。</td>
+<td>分析： 构建初步的 端到端评估 (Evals)，使用小型数据集（如 10-20 例）计算整体性能指标。</td>
+</tr>
+<tr>
+<td>3. 严谨分析</td>
+<td>系统需要更精确的改进方向。</td>
+<td>分析： 进行错误分析，统计和量化各个组件导致次优输出的频率，以做出更集中的决策。</td>
+</tr>
+<tr>
+<td>4. 高效调优</td>
+<td>系统进一步成熟，需要在组件级别进行高效改进。</td>
+<td>分析： 构建组件级评估，以便更高效地对单个组件进行调优。</td>
+</tr>
+</tbody></table>
+<p>显然，开发是一个非线性的过程，需要在调整系统、错误分析、改进组件和调整评估之间反复横跳。</p>
+<p>许多经验不足的团队往往花太多时间在构建上，而太少时间在分析上，导致工作重点不集中，效率低下。所以合适的流程应该是先搭一个初级的出来，然后再不断的迭代，不断的分析和再构建，而不是一开始就要打造一个完美的agent。<br>在早期，市面上有许多工具可以帮助监控追踪、记录运行时、计算成本等。团队可以尽情使用这些前人造的轮子。但由于大多数Agent工作流程是高度定制化的，所以团队最终仍需要自行构建许多定制化的评估，以准确捕获系统特有的问题。</p>
+<p>上面整理的这些有一部分是摘自github中的笔记，基础知识已经差不多了，其实最后还是需要自己去实践一下，才能真正get到agent到底是怎么构建和运作起来的。</p>
+<p>第五部分主要讲了自主调用工具的agent和多智能体等，基础知识详见前面提到的大佬的笔记，实践的话可以看我整理的数据库agent。</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://example.com/2026/01/19/Agentic%20AI/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://example.com/2026/01/19/Agentic%20AI/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a target="_blank" rel="noopener" href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>
