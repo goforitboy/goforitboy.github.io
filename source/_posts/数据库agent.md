@@ -1,6 +1,6 @@
 ---
 title: 数据库agent
-date: 2025/1/20   # 文章发表时间
+date: 2026/1/20   # 文章发表时间
 categories: Tech # 分类
 thumbnail: /images/数据库agent背景.jpg # 略缩图
 ---
